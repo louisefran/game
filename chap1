@@ -1,0 +1,27 @@
+Cột “Mã CK” (Mã chứng khoán):
+  là danh sách các mã chứng khoán giao dịch.
+Cột “TC“ (Giá Tham chiếu – Màu vàng):
+  dùng để hiển thị mức giá đóng gần nhất của phiên giao dịch trước đó.
+  Và hầu như luôn là như vậy, chỉ trừ những trường hợp đặc biệt.
+  Dựa theo giá tham chiếu, người ta sẽ tính toán được Giá trần và Giá sàn của từng sàn giao dịch khác nhau.
+  Đối với sàn UPCOM, thì điều này sẽ có đôi chút khác biệt. Bởi vì Giá ham chiếu ở đây sẽ được tính theo  Giá bình quân của phiên giao dịch gần nhất.
+     Do đó cần lưu ý đến vấn đề này nếu bạn đang lựa chọn thực hiện các giao dịch tại sàn UPCOM.
+Cột “Trần” (Giá Trần – Màu tím):
+  Giá Trần – Màu tím ở đây chính là mức giá cao nhất mà bạn có thể đặt lệnh mua. Thậm chí là cả lệnh bán chứng khoán trong ngày giao dịch.
+  Mỗi sàn giao dịch sẽ có mức Giá Trần khác nhau, cụ thể như sau:
+    Sàn HOSE: So với Giá tham chiếu thì Giá trần tăng +7% để đạt tới ngưỡng cao nhất.
+    Sàn HNX: So với Giá tham chiếu thì Giá trần tăng +10% để đạt tới ngưỡng cao nhất
+    Sàn UPCOM: So với Giá bình quân phiên giao dịch liền trước thì Giá trần tăng +15% để đạt tới ngưỡng cao nhất.
+Cột “Sàn” (Giá Sàn – Màu xanh lam):
+  Trái với cột “Trần”, ở đây cột “ Sàn” thể hiện mức giá thấp nhất khi đặt lệnh mua hoặc bán chứng khoán trong ngày giao dịch.
+  Tương tự như vậy, mỗi sàn giao dịch khác nhau sẽ có mức giá sàn khác nhau:
+    Sàn HOSE: So với Giá tham chiếu thì Giá trần giảm -7% và chạm mức thấp nhất.
+    Sàn HNX: So với Giá tham chiếu thì Giá trần giảm -10% và chạm mức thấp nhất.
+    Sàn UPCOM: So với Giá bình quân phiên giao dịch liền trước thì Giá trần giảm -15% và chạm mức thấp nhất.
+Cột “Tổng KL” (Tổng khối lượng):
+  Cột này thể hiện tổng khối lượng cổ phiếu đã được giao dịch tính trong ngày giao dịch đó. 
+  Mỗi ngày sẽ có tổng khối lượng giao dịch riêng. Dựa theo cột này bạn có thể dễ dàng tính thanh khoản của cổ phiếu.
+---
+Cột “Khớp lệnh”:
+  
+  
